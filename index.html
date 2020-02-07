@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Shopping cart</title>
+    </head>
+<body>
+  <script>
+    var Addcart=0;
+function adds(){
+Addcart++;
+document.getElementById('inc').value =Addcart;
+}
+
+    </script>
+  <div class="addcart"><button>Addcart
+    <input type="button" id="inc" value="0"></input>
+    </button>
+    </div>
+  
+  
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+          Shopping Cart
+        </div>
+       
+        <!-- Product #1 -->
+        <div class="item">
+          <div class="button">
+           
+          </div>
+       
+          <div class="image">
+            <img src="./images/new.jpg" alt="" width='120px' />
+          </div>
+       
+          <div class="description">
+            <span>good image</span>
+            <span>nice pic are</span>
+           
+          </div>
+          
+          
+          
+        
+
+         <div class="button"> <button onClick="adds();">Add to cart</button>
+          
+          
+        
+          </div>
+        </div>
+        
+        
+       
+       
+        <!-- Product #2 -->
+        <div class="item">
+          <div class="counter">
+           
+          </div>
+       
+          <div class="image">
+            <img src="./images/new1.jpg" alt="" width='120px'/>
+          </div>
+       
+          <div class="description">
+            <span>good image</span>
+            <span>are the </span>
+            <span>bag</span>
+            
+          </div>
+       
+          <div class="button">
+                 
+
+            <input type="number" value="0">
+  
+              
+            </div>
+            <script src="index.js"></script>
+         
+       
+          <div class="total-price">$870</div>
+          <div class="button"> <button onclick="adds();">Add to cart</button></div>
+        </div>
+       
+        <!-- Product #3 -->
+        <div class="item">
+          <div class="button">
+          
+          </div>
+       
+          <div class="image">
+            <img src="images/new2.jpg" width='120px'/>
+          </div>
+       
+          <div class="description">
+            <span>good images</span>
+            <span>are a very </span>
+            
+          </div>
+          <div class="button">
+                 
+
+            <input type="number" value="0">
+  
+              
+            </div>
+            <script src="index.js"></script>
+         
+       
+          <div class="total-price">$349</div>
+          <div class="button"> <button onClick="adds();">Add to cart</button></div>
+        </div>
+      </div>
+    
+</body>
+</html>
